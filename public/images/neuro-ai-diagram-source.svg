@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">Neuro+AI research cycle</title>
+  <desc id="desc">Diagram connecting imaging the brain, understanding the brain, advancing artificial intelligence, and improving brain health, with AI to synthesize and analyze neuroimaging at the center.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a6192e"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#202020" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="980" fill="#ffffff"/>
+  <rect x="46" y="46" width="1308" height="888" rx="36" fill="#f7f7f7" stroke="#dddddd" stroke-width="4"/>
+  <circle cx="700" cy="490" r="308" fill="none" stroke="#a6192e" stroke-width="18" stroke-linecap="round" stroke-dasharray="134 58" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)">
+    <rect x="478" y="378" width="444" height="224" rx="28" fill="#ffffff" stroke="#a6192e" stroke-width="5"/>
+    <text x="700" y="455" text-anchor="middle" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="58" font-weight="800" fill="#202020">Neuro+AI</text>
+    <text x="700" y="512" text-anchor="middle" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="31" font-weight="700" fill="#5f5f5f">AI to synthesize and</text>
+    <text x="700" y="553" text-anchor="middle" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="31" font-weight="700" fill="#5f5f5f">analyze neuroimaging</text>
+  </g>
+  <g font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g filter="url(#shadow)">
+      <rect x="496" y="108" width="408" height="134" rx="22" fill="#ffffff" stroke="#dddddd" stroke-width="4"/>
+      <text x="700" y="166" text-anchor="middle" font-size="36" font-weight="800" fill="#202020">Imaging the brain</text>
+      <text x="700" y="207" text-anchor="middle" font-size="24" font-weight="650" fill="#5f5f5f">MRI, MEG, fMRI, EEG, PET</text>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="90" y="420" width="392" height="134" rx="22" fill="#ffffff" stroke="#dddddd" stroke-width="4"/>
+      <text x="286" y="479" text-anchor="middle" font-size="34" font-weight="800" fill="#202020">Understanding</text>
+      <text x="286" y="520" text-anchor="middle" font-size="34" font-weight="800" fill="#202020">the brain</text>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="920" y="420" width="390" height="134" rx="22" fill="#ffffff" stroke="#dddddd" stroke-width="4"/>
+      <text x="1115" y="479" text-anchor="middle" font-size="34" font-weight="800" fill="#202020">Advancing artificial</text>
+      <text x="1115" y="520" text-anchor="middle" font-size="34" font-weight="800" fill="#202020">intelligence</text>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="496" y="742" width="408" height="134" rx="22" fill="#ffffff" stroke="#dddddd" stroke-width="4"/>
+      <text x="700" y="802" text-anchor="middle" font-size="34" font-weight="800" fill="#202020">Improving brain</text>
+      <text x="700" y="843" text-anchor="middle" font-size="34" font-weight="800" fill="#202020">health</text>
+    </g>
+  </g>
+</svg>

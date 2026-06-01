@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Neutral placeholder headshot</title>
+  <desc id="desc">A simple neutral avatar icon that does not resemble a real person.</desc>
+  <rect width="256" height="256" fill="#f7f7f7"/>
+  <circle cx="128" cy="96" r="42" fill="#dddddd"/>
+  <path d="M52 222c10-47 41-73 76-73s66 26 76 73" fill="#dddddd"/>
+  <circle cx="128" cy="128" r="118" fill="none" stroke="#a6192e" stroke-width="8"/>
+</svg>
