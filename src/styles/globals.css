@@ -497,6 +497,12 @@ h3 {
   gap: 1.5rem;
 }
 
+/* Narrow + center the 3-up feature rows so cards aren't wider than their text */
+.grid-3 {
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
 .card {
   border: 1px solid var(--color-border);
   border-radius: 8px;
@@ -520,6 +526,11 @@ h3 {
 
 .feature-card h3 {
   font-size: 1.15rem;
+}
+
+.feature-card p {
+  font-size: 1.05rem;
+  line-height: 1.55;
 }
 
 .feature-icon {

@@ -40,8 +40,8 @@ function App() {
         </Section>
         <Section id="mission" title="Our Mission" tone="soft">
           <div className="prose prose-narrow">
-            {missionIntro.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
+            {missionIntro.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
             ))}
           </div>
         </Section>

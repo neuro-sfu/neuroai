@@ -43,8 +43,18 @@ export const challenge: ReactNode[] = [
   "AI-driven technologies have the power to transform how we understand and treat brain diseases, unlocking new possibilities in diagnosis, prediction, and personalized care. Today, many AI systems lack the biological grounding needed to model complex brain data, while neuroscience research often cannot fully leverage the power of modern AI. Realizing that potential requires close collaboration between AI and neuroscience researchers, bringing together computational tools and the scientific grounding to apply them.",
 ];
 
-export const missionIntro = [
-  "SFU's Neuro+AI initiative brings together a cluster of researchers from the SFU Institute for Neuroscience and Neurotechnology (INN) and the SFU Visual, Interactive, and Intelligent Computing Institute (VINCI) committed to working at the intersection of brain science and AI.",
+export const missionIntro: ReactNode[] = [
+  <>
+    SFU's Neuro+AI initiative brings together a cluster of researchers from the SFU{" "}
+    <ExtLink href="https://www.sfu.ca/neuro-institute.html">
+      Institute for Neuroscience and Neurotechnology (INN)
+    </ExtLink>{" "}
+    and the SFU{" "}
+    <ExtLink href="https://vinci.sfu.ca/">
+      Visual, Interactive, and Intelligent Computing Institute (VINCI)
+    </ExtLink>{" "}
+    committed to working at the intersection of brain science and AI.
+  </>,
 ];
 
 export const strengthsIntro =
