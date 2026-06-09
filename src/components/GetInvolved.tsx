@@ -55,7 +55,7 @@ export function GetInvolved() {
             </a>
           ) : (
             <span className="button button-disabled" aria-disabled="true">
-              Contact details coming soon
+              Contact us at neuroai@sfu.ca
             </span>
           )}
         </div>
