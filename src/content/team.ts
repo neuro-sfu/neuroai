@@ -20,11 +20,10 @@ export const team: TeamMember[] = [
   {
     name: "Lisa Julian",
     email: "lisa_julian@sfu.ca",
-    photo: "/images/team/lisa-julian.jpg",
+    photo: "/images/team/lisa-julian-2026.jpg",
     bio: "",
     role: "Assistant Professor; Canada Research Chair in Human Neural Stem Cell Biology and Brain Modeling",
     profileUrl: "https://www.sfu.ca/mbb/people/faculty/Lisa-Julian.html",
-    photoPosition: "center top",
   },
   {
     name: "Alex Wiesman",
