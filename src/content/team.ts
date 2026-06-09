@@ -105,7 +105,7 @@ export const team: TeamMember[] = [
     email: "hamarneh@sfu.ca",
     photo: "/images/team/ghassan-hamarneh.jpg",
     bio: "",
-    role: "Professor",
+    role: "Professor in Medical Image Analysis",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/ghassan-hamarneh.html",
     photoPosition: "center top",
   },
