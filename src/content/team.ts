@@ -56,7 +56,7 @@ export const team: TeamMember[] = [
     email: "kelly_shen@sfu.ca",
     photo: "/images/team/kelly-shen.jpg",
     bio: "",
-    role: "Director, Operations, INN",
+    role: "Director, Operations, Institute for Neuroscience Neurotechnology",
     profileUrl: "https://www.sfu.ca/neuro-institute/about/governance/staff/kelly-shen.html",
   },
   {
@@ -80,7 +80,7 @@ export const team: TeamMember[] = [
     email: "manolis_savva@sfu.ca",
     photo: "/images/team/manolis-savva.jpg",
     bio: "",
-    role: "Associate Professor; Canada Research Chair in Computer Graphics",
+    role: "Associate Professor; Canada Research Chair in Computer Graphics; Co-director, VINCI",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/msavva",
   },
   {
