@@ -30,7 +30,7 @@ export const team: TeamMember[] = [
     email: "alex_wiesman@sfu.ca",
     photo: "/images/team/alex-wiesman.jpg",
     bio: "",
-    role: "Assistant Professor; Canada Research Chair in Neurophysiology of Aging and Neurodegeneration; Scientific Director, ImageTech Lab Core Facility",
+    role: "Assistant Professor; Canada Research Chair in Neurophysiology of Aging and Neurodegeneration; Scientific Director, SFU Centre for Advanced Imaging",
     profileUrl: "https://www.sfu.ca/bpk/about/people/faculty/Alex-Wiesman.html",
     photoPosition: "center top",
   },

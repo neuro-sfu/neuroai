@@ -1,5 +1,4 @@
 import { hero } from "../content/siteContent";
-import { ResearchLoop } from "./ResearchLoop";
 
 export function Hero() {
   return (
@@ -18,8 +17,11 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <div className="hero-media" aria-label="Neuro+AI research cycle preview">
-          <ResearchLoop />
+        <div className="hero-media">
+          <img
+            src="/images/group-neuroai.jpg"
+            alt="SFU Neuro+AI researchers standing together in an atrium"
+          />
         </div>
       </div>
     </section>

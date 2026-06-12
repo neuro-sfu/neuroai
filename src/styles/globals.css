@@ -425,16 +425,23 @@ h3 {
 
 .hero-media {
   position: relative;
-  min-height: 29rem;
+  display: flex;
+  aspect-ratio: 1300 / 932;
+  overflow: hidden;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  background:
-    radial-gradient(120% 120% at 0% 0%, rgba(166, 25, 46, 0.07), transparent 45%),
-    radial-gradient(120% 120% at 100% 100%, rgba(42, 44, 107, 0.07), transparent 45%),
-    rgba(255, 255, 255, 0.65);
+  background: #fff;
   backdrop-filter: blur(4px);
   padding: 1.25rem;
   box-shadow: var(--shadow-lg);
+}
+
+.hero-media img {
+  width: 100%;
+  height: 100%;
+  border-radius: calc(var(--radius-lg) - 0.6rem);
+  object-fit: contain;
+  object-position: center;
 }
 
 /* ---------- Research loop (hero graphic) ---------- */
@@ -1170,7 +1177,6 @@ h3 {
     padding: 4rem 0 3.5rem;
   }
 
-  .hero-media,
   .research-loop {
     min-height: 24rem;
   }

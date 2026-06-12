@@ -174,14 +174,37 @@ export const training: { intro: string[]; cards: TrainingCard[] } = {
             CMPT 763
           </ExtLink>
           ) and those offered by the Translational and Integrative Neuroscience (TRAIN) graduate
-          specialization (NEUR 800, 801), an annual MEG Summer Camp, and guest seminars.
+          specialization (
+          <ExtLink href="https://www.sfu.ca/outlines.html?2025/fall/neur/800/g100">
+            NEUR 800
+          </ExtLink>
+          ,{" "}
+          <ExtLink href="https://www.sfu.ca/students/calendar/2026/summer/courses/neur/801.html">
+            NEUR 801
+          </ExtLink>
+          ), an annual MEG Summer Camp, and guest seminars.
         </>
       ),
     },
     {
       icon: "brain",
       title: "For neuroscience students",
-      body: "Neuroscience graduate students looking to build AI knowledge can explore two orientation courses: CMPT 891 (Computing Research Orientation) and CMPT 218 (Special Topics in Computing Science - Foundation Models for Scientists), which covers large language models and vision transformers with no advanced computing background required.",
+      body: (
+        <>
+          Neuroscience graduate students looking to build AI knowledge can explore two orientation
+          courses:{" "}
+          <ExtLink href="https://www.sfu.ca/outlines.html?2026/fall/cmpt/891/g100">
+            CMPT 891
+          </ExtLink>{" "}
+          (Computing Research Orientation) and{" "}
+          <ExtLink href="https://www.sfu.ca/students/calendar/2026/summer/courses/cmpt/218.html">
+            CMPT 218
+          </ExtLink>{" "}
+          (Special Topics in Computing Science - Foundation Models for Scientists), which covers
+          large language models and vision transformers with no advanced computing background
+          required.
+        </>
+      ),
     },
   ],
 };
@@ -193,7 +216,7 @@ export const getInvolved = {
     "Undergraduate, graduate and post-doctoral training",
     "Research collaborations",
     "Institutional and industry partnership",
-    "Philanthropic support to help accelerate this work and expand its impact.",
+    "Philanthropic investment",
   ],
   closing: "Together, we can move from possibility to impact!",
   contactLead: "Get in touch at:",
