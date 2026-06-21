@@ -51,7 +51,7 @@ export function GetInvolved() {
         <div className="contact-panel-action">
           {hasRealEmail ? (
             <a className="button" href={`mailto:${contact.email}`}>
-              Email us
+              Contact us at {contact.email}
             </a>
           ) : (
             <span className="button button-disabled" aria-disabled="true">

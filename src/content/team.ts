@@ -56,7 +56,7 @@ export const team: TeamMember[] = [
     email: "kelly_shen@sfu.ca",
     photo: "/images/team/kelly-shen.jpg",
     bio: "",
-    role: "Director, Operations, Institute for Neuroscience Neurotechnology",
+    role: "Director, Operations, Institute for Neuroscience and Neurotechnology",
     profileUrl: "https://www.sfu.ca/neuro-institute/about/governance/staff/kelly-shen.html",
   },
   {

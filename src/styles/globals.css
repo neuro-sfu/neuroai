@@ -985,6 +985,7 @@ h3 {
   display: grid;
   width: 100%;
   aspect-ratio: 1;
+  margin-top: 0;
   place-items: center;
   border-bottom: 1px solid var(--color-border);
   background: var(--brand-gradient-soft);
@@ -992,6 +993,7 @@ h3 {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.6rem;
+  text-decoration: none;
   overflow: hidden;
 }
 

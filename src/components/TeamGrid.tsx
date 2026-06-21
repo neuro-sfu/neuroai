@@ -15,7 +15,13 @@ export function TeamGrid() {
     <div className="team-grid">
       {team.map((person) => (
         <article className="card team-card" key={person.email}>
-          <div className="team-photo" aria-hidden="true">
+          <a
+            className="team-photo"
+            href={person.profileUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`${person.name}'s profile`}
+          >
             {person.photo ? (
               <img
                 src={person.photo}
@@ -25,7 +31,7 @@ export function TeamGrid() {
             ) : (
               <span>{getInitials(person.name)}</span>
             )}
-          </div>
+          </a>
           <div className="team-card-body">
             <h3>
               {person.profileUrl ? (

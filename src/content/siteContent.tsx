@@ -17,7 +17,7 @@ export const navItems = [
 ];
 
 export const contact = {
-  email: "[contact email]",
+  email: "neuroai@sfu.ca",
   url: "[contact page link]",
 };
 
