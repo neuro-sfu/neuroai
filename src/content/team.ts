@@ -12,7 +12,7 @@ export const team: TeamMember[] = [
   {
     name: "Randy McIntosh",
     email: "randy_mcintosh@sfu.ca",
-    photo: "/images/team/randy-mcintosh.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/randy-mcintosh.jpg`,
     bio: "",
     role: "Professor; Director, Institute for Neuroscience and Neurotechnology",
     profileUrl: "https://www.sfu.ca/bpk/about/people/faculty/randy-mcintosh.html",
@@ -20,7 +20,7 @@ export const team: TeamMember[] = [
   {
     name: "Lisa Julian",
     email: "lisa_julian@sfu.ca",
-    photo: "/images/team/lisa-julian-2026.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/lisa-julian-2026.jpg`,
     bio: "",
     role: "Assistant Professor; Canada Research Chair in Human Neural Stem Cell Biology and Brain Modeling",
     profileUrl: "https://www.sfu.ca/mbb/people/faculty/Lisa-Julian.html",
@@ -28,7 +28,7 @@ export const team: TeamMember[] = [
   {
     name: "Alex Wiesman",
     email: "alex_wiesman@sfu.ca",
-    photo: "/images/team/alex-wiesman.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/alex-wiesman.jpg`,
     bio: "",
     role: "Assistant Professor; Canada Research Chair in Neurophysiology of Aging and Neurodegeneration; Scientific Director, SFU Centre for Advanced Imaging",
     profileUrl: "https://www.sfu.ca/bpk/about/people/faculty/Alex-Wiesman.html",
@@ -37,7 +37,7 @@ export const team: TeamMember[] = [
   {
     name: "Brianne Kent",
     email: "brianne_kent@sfu.ca",
-    photo: "/images/team/brianne-kent.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/brianne-kent.jpg`,
     bio: "",
     role: "Assistant Professor; Canada Research Chair (II), Translational Neuroscience and Dementia",
     profileUrl: "https://www.sfu.ca/psychology/news-events/news/sfu-psychology-welcomes-new-professor-brianne-kent.html",
@@ -45,7 +45,7 @@ export const team: TeamMember[] = [
   {
     name: "Dylan Cooke",
     email: "dfcooke@sfu.ca",
-    photo: "/images/team/dylan-cooke.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/dylan-cooke.jpg`,
     bio: "",
     role: "Associate Professor; Chair, Translational and Integrative Neuroscience (TRAIN) graduate specialization",
     profileUrl: "https://www.sfu.ca/bpk/about/people/faculty/dylan-cooke.html",
@@ -54,7 +54,7 @@ export const team: TeamMember[] = [
   {
     name: "Kelly Shen",
     email: "kelly_shen@sfu.ca",
-    photo: "/images/team/kelly-shen.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/kelly-shen.jpg`,
     bio: "",
     role: "Director, Operations, Institute for Neuroscience and Neurotechnology",
     profileUrl: "https://www.sfu.ca/neuro-institute/about/governance/staff/kelly-shen.html",
@@ -62,7 +62,7 @@ export const team: TeamMember[] = [
   {
     name: "Angelica Lim",
     email: "angelica@sfu.ca",
-    photo: "/images/team/angelica-lim.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/angelica-lim.jpg`,
     bio: "",
     role: "Associate Professor Practitioner; Rajan Family Scholar; Canada CIFAR AI Chair; Amii Fellow",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/angelica-lim.html",
@@ -70,7 +70,7 @@ export const team: TeamMember[] = [
   {
     name: "Angel Chang",
     email: "angel_xuan_chang@sfu.ca",
-    photo: "/images/team/angel-chang.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/angel-chang.jpg`,
     bio: "",
     role: "Associate Professor; Canada CIFAR AI Chair; Amii Fellow",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/angel-chang.html",
@@ -78,7 +78,7 @@ export const team: TeamMember[] = [
   {
     name: "Manolis Savva",
     email: "manolis_savva@sfu.ca",
-    photo: "/images/team/manolis-savva.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/manolis-savva.jpg`,
     bio: "",
     role: "Associate Professor; Canada Research Chair in Computer Graphics; Co-director, VINCI",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/msavva",
@@ -86,7 +86,7 @@ export const team: TeamMember[] = [
   {
     name: "Ke Li",
     email: "keli@sfu.ca",
-    photo: "/images/team/ke-li.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/ke-li.jpg`,
     bio: "",
     role: "Assistant Professor; Visual Computing Research Chair; Canada CIFAR AI Chair; Amii Fellow",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/keli",
@@ -94,7 +94,7 @@ export const team: TeamMember[] = [
   {
     name: "Mo Chen",
     email: "mochen@cs.sfu.ca",
-    photo: "/images/team/mo-chen.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/mo-chen.jpg`,
     bio: "",
     role: "Associate Professor; Canada CIFAR AI Chair; Amii Fellow",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/mo-chen.html",
@@ -102,7 +102,7 @@ export const team: TeamMember[] = [
   {
     name: "Ghassan Hamarneh",
     email: "hamarneh@sfu.ca",
-    photo: "/images/team/ghassan-hamarneh.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/ghassan-hamarneh.jpg`,
     bio: "",
     role: "Professor in Medical Image Analysis",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/ghassan-hamarneh.html",
@@ -111,7 +111,7 @@ export const team: TeamMember[] = [
   {
     name: "Ali Mahdavi-Amiri",
     email: "ali_mahdavi-amiri@sfu.ca",
-    photo: "/images/team/ali-mahdavi-amiri.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/ali-mahdavi-amiri.jpg`,
     bio: "",
     role: "Assistant Professor of Professional Practice",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/amahdavi.html",
@@ -119,7 +119,7 @@ export const team: TeamMember[] = [
   {
     name: "Gustavo Balbinot",
     email: "gustavo_balbinot@sfu.ca",
-    photo: "/images/team/gustavo-balbinot.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/gustavo-balbinot.jpg`,
     bio: "",
     role: "Assistant Professor in Neurorehabilitation",
     profileUrl: "https://www.sfu.ca/bpk/about/people/faculty/Gustavo-Balbinot.html",
@@ -127,7 +127,7 @@ export const team: TeamMember[] = [
   {
     name: "Marzena Karpinska",
     email: "marzena_karpinska@sfu.ca",
-    photo: "/images/team/marzena-karpinska.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/marzena-karpinska.jpg`,
     bio: "",
     role: "Assistant Professor",
     profileUrl: "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/marzena-karpinska",
@@ -135,7 +135,7 @@ export const team: TeamMember[] = [
   {
     name: "Ö. Nilay Yalçin",
     email: "oyalcin@sfu.ca",
-    photo: "/images/team/ozge-nilay-yalcin.jpg",
+    photo: `${import.meta.env.BASE_URL}images/team/ozge-nilay-yalcin.jpg`,
     bio: "",
     role: "Assistant Professor",
     profileUrl: "https://www.sfu.ca/siat/people/research-faculty/o-nilay-yalcin.html",

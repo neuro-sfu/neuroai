@@ -10,7 +10,7 @@ export function DiagramSection() {
           <p>{diagramText}</p>
         </div>
         <div className="diagram-image-wrap">
-          <img src="/images/neuro-ai-diagram.png" alt={diagramAlt} />
+          <img src={`${import.meta.env.BASE_URL}images/neuro-ai-diagram.png`} alt={diagramAlt} />
         </div>
       </div>
     </section>

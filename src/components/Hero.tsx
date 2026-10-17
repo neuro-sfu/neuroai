@@ -19,7 +19,7 @@ export function Hero() {
         </div>
         <div className="hero-media">
           <img
-            src="/images/group-neuroai.jpg"
+            src={`${import.meta.env.BASE_URL}images/group-neuroai.jpg`}
             alt="SFU Neuro+AI researchers standing together in an atrium"
           />
         </div>
