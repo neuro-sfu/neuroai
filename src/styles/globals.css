@@ -716,7 +716,7 @@ h3 {
   max-width: 34rem;
 }
 
-.diagram-copy p:last-child {
+.diagram-copy > p:not(.eyebrow) {
   margin: 1.25rem 0 0;
   font-size: 1.1rem;
   line-height: 1.7;
@@ -765,6 +765,152 @@ h3 {
 
 .nai-center {
   font-weight: 700;
+}
+
+.nai-badge {
+  font-family: var(--font-display);
+  font-weight: 800;
+}
+
+/* selecting a stage fades the rest of the figure */
+.nai-part {
+  transition: opacity 0.25s ease;
+}
+
+.nai-cycle.has-active .nai-part {
+  opacity: 0.22;
+}
+
+.nai-cycle[data-active="imaging"] .nai-part[data-stage~="imaging"],
+.nai-cycle[data-active="understanding"] .nai-part[data-stage~="understanding"],
+.nai-cycle[data-active="advancing"] .nai-part[data-stage~="advancing"],
+.nai-cycle[data-active="improving"] .nai-part[data-stage~="improving"],
+.nai-cycle[data-active="exchange"] .nai-part[data-stage~="exchange"] {
+  opacity: 1;
+}
+
+.nai-hotspot {
+  cursor: pointer;
+  outline: none;
+}
+
+.nai-focus {
+  stroke: transparent;
+  stroke-width: 6;
+}
+
+.nai-hotspot:focus-visible .nai-focus {
+  stroke: var(--color-focus);
+}
+
+/* a light pulse runs along the band a few times to show the direction */
+.nai-flow {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-opacity: 0.7;
+  stroke-width: 64;
+  stroke-dasharray: 80 1200;
+  stroke-dashoffset: 80;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nai-cycle.is-playing .nai-flow {
+  animation: nai-flow 2.8s ease-in-out 0.4s 3;
+}
+
+.nai-cycle.has-active .nai-flow {
+  display: none;
+}
+
+@keyframes nai-flow {
+  0% {
+    stroke-dashoffset: 80;
+    opacity: 0;
+  }
+
+  12%,
+  85% {
+    opacity: 1;
+  }
+
+  100% {
+    stroke-dashoffset: -1000;
+    opacity: 0;
+  }
+}
+
+/* stage buttons and explanation under the figure */
+.nai-steps {
+  display: none;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.nai-step {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 2px solid var(--color-charcoal);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--color-text);
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.3rem 0.6rem 0.3rem 0.32rem;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.nai-step:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--color-charcoal);
+}
+
+.nai-step[aria-pressed="true"] {
+  background: var(--color-charcoal);
+  color: #fff;
+}
+
+.nai-step-num {
+  display: inline-grid;
+  width: 1.3rem;
+  height: 1.3rem;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--color-red);
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+.nai-step-advancing .nai-step-num,
+.nai-step-improving .nai-step-num {
+  background: var(--color-gold);
+  color: var(--color-text);
+}
+
+.nai-step-exchange .nai-step-num {
+  background: var(--color-red-deep);
+}
+
+@container (max-width: 440px) {
+  .nai-steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nai-step-exchange {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nai-flow {
+    display: none;
+  }
 }
 
 /* ---------- Get involved ---------- */

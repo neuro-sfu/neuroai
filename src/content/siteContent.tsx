@@ -138,6 +138,47 @@ export const missionClosing =
 export const diagramText =
   "SFU Neuro+AI connects brain imaging, brain understanding, artificial intelligence, and brain health. AI can help synthesize and analyze neuroimaging data, while neuroscience provides biological grounding for more meaningful and responsible AI systems.";
 
+export type CycleStageId = "imaging" | "understanding" | "advancing" | "improving" | "exchange";
+
+// Parts of the research-cycle figure: names for the stage buttons and screen readers.
+export const cycleStages: {
+  id: CycleStageId;
+  step: string;
+  short: string;
+  title: string;
+}[] = [
+  {
+    id: "imaging",
+    step: "1",
+    short: "Imaging",
+    title: "Imaging the brain",
+  },
+  {
+    id: "understanding",
+    step: "2",
+    short: "Understanding",
+    title: "Understanding the brain",
+  },
+  {
+    id: "advancing",
+    step: "3",
+    short: "AI",
+    title: "Advancing artificial intelligence",
+  },
+  {
+    id: "improving",
+    step: "4",
+    short: "Brain health",
+    title: "Improving brain health",
+  },
+  {
+    id: "exchange",
+    step: "↔",
+    short: "Exchange",
+    title: "A two-way exchange",
+  },
+];
+
 export const whyNowIntro =
   "AI is already transforming fields such as climate modelling, drug discovery, and medical diagnosis. In brain health, arguably the most complex frontier, its potential is even greater.";
 
