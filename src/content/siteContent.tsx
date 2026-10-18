@@ -21,6 +21,13 @@ export const contact = {
   url: "[contact page link]",
 };
 
+export const studentApplication = {
+  url: "https://forms.cloud.microsoft/pages/responsepage.aspx?id=fmfoBInJuUeGGdg9Wl9sZ5UnmKN79CNHrobFkJjJfX9UNEJaMURTRU1SVTEyMzFDT0RJS0VaOVVMMyQlQCN0PWcu&route=shorturl",
+  title: "Interested in joining as a student?",
+  body: "Tell us about your background and interests through our short application form, and we will be in touch about opportunities in the Neuro+AI community.",
+  cta: "Apply as a student",
+};
+
 export const hero = {
   title: "SFU Neuro+AI: Bridging Brain Imaging and Artificial Intelligence",
   subtitle:
@@ -198,7 +205,7 @@ export const training: { intro: string[]; cards: TrainingCard[] } = {
           </ExtLink>{" "}
           (Computing Research Orientation) and{" "}
           <ExtLink href="https://www.sfu.ca/students/calendar/2026/summer/courses/cmpt/218.html">
-            CMPT 218
+            CMPT 218 / 983
           </ExtLink>{" "}
           (Special Topics in Computing Science - Foundation Models for Scientists), which covers
           large language models and vision transformers with no advanced computing background

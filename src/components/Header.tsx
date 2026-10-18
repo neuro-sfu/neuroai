@@ -7,10 +7,15 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <a className="brand" href="#main-content" aria-label="SFU Neuro+AI home">
-          <span className="brand-title">SFU Neuro+AI</span>
-          <span className="brand-subtitle">Bridging Brain Imaging and Artificial Intelligence</span>
-        </a>
+        <div className="brand-lockup">
+          <a className="sfu-logo" href="https://www.sfu.ca" target="_blank" rel="noreferrer">
+            <img src={`${import.meta.env.BASE_URL}images/sfu-logo.png`} alt="Simon Fraser University" />
+          </a>
+          <a className="brand" href="#main-content" aria-label="SFU Neuro+AI home">
+            <span className="brand-title">Neuro+AI</span>
+            <span className="brand-subtitle">Bridging Brain Imaging and Artificial Intelligence</span>
+          </a>
+        </div>
         <button
           className="menu-button"
           type="button"

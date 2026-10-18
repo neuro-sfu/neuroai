@@ -1,4 +1,4 @@
-import { training } from "../content/siteContent";
+import { studentApplication, training } from "../content/siteContent";
 import { FeatureCard } from "./FeatureCard";
 import { Section } from "./Section";
 
@@ -14,6 +14,15 @@ export function TrainingSection() {
         {training.cards.map((card) => (
           <FeatureCard key={card.title} icon={card.icon} title={card.title} body={card.body} />
         ))}
+      </div>
+      <div className="apply-callout">
+        <div>
+          <h3>{studentApplication.title}</h3>
+          <p>{studentApplication.body}</p>
+        </div>
+        <a className="button" href={studentApplication.url} target="_blank" rel="noreferrer">
+          {studentApplication.cta}
+        </a>
       </div>
     </Section>
   );

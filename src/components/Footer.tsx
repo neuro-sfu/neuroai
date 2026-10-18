@@ -3,6 +3,9 @@ export function Footer() {
     <footer className="site-footer">
       <div className="footer-inner">
         <div>
+          <a className="sfu-logo footer-logo" href="https://www.sfu.ca" target="_blank" rel="noreferrer">
+            <img src={`${import.meta.env.BASE_URL}images/sfu-logo.png`} alt="Simon Fraser University" />
+          </a>
           <h2>SFU Neuro+AI</h2>
           <p>
             A collaboration between the SFU{" "}
@@ -16,6 +19,7 @@ export function Footer() {
             .
           </p>
           <p className="copyright">© Simon Fraser University.</p>
+          <p className="copyright">Website made with Claude</p>
         </div>
         <nav aria-label="Footer navigation">
           <a href="#mission">Mission</a>
