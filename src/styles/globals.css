@@ -1007,6 +1007,15 @@ h3 {
   font-size: 0.95rem;
 }
 
+.made-with {
+  margin: 0.75rem 0 0;
+  color: var(--color-gold-light) !important;
+  font-family: "Dancing Script", "Snell Roundhand", "Apple Chancery", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 /* ---------- Scroll reveal (progressive enhancement) ---------- */
 /* uses `translate` so it never overrides the tilt `transform` on cards */
 .reveal-ready .reveal-target {

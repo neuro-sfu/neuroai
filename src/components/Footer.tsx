@@ -19,7 +19,7 @@ export function Footer() {
             .
           </p>
           <p className="copyright">© Simon Fraser University.</p>
-          <p className="copyright">Website made with Claude</p>
+          <p className="made-with">Website made with Claude Code.</p>
         </div>
         <nav aria-label="Footer navigation">
           <a href="#mission">Mission</a>
