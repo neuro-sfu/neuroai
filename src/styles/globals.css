@@ -723,11 +723,48 @@ h3 {
 }
 
 .diagram-image-wrap {
+  container-type: inline-size;
   border: 2px solid var(--color-charcoal);
   border-radius: var(--radius);
   background: #fff;
   padding: 1.5rem;
   box-shadow: var(--stamp);
+}
+
+/* research-cycle figure: the larger-text version takes over when it gets narrow */
+.nai-figure {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.nai-figure-mobile {
+  display: none;
+}
+
+@container (max-width: 440px) {
+  .nai-figure-desktop {
+    display: none;
+  }
+
+  .nai-figure-mobile {
+    display: block;
+  }
+}
+
+.nai-label,
+.nai-center {
+  fill: var(--color-text);
+  font-family: var(--font-display);
+  font-stretch: 92%;
+}
+
+.nai-label {
+  font-weight: 800;
+}
+
+.nai-center {
+  font-weight: 700;
 }
 
 /* ---------- Get involved ---------- */
@@ -1162,6 +1199,10 @@ h3 {
 
   .contact-panel {
     padding: 1.75rem;
+  }
+
+  .diagram-image-wrap {
+    padding: 0.6rem;
   }
 
   .hero-actions,

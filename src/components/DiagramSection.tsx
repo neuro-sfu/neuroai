@@ -1,4 +1,5 @@
-import { diagramAlt, diagramText } from "../content/siteContent";
+import { diagramText } from "../content/siteContent";
+import { ResearchCycleFigure } from "./ResearchCycleFigure";
 
 export function DiagramSection() {
   return (
@@ -10,7 +11,7 @@ export function DiagramSection() {
           <p>{diagramText}</p>
         </div>
         <div className="diagram-image-wrap">
-          <img src={`${import.meta.env.BASE_URL}images/neuro-ai-diagram.png`} alt={diagramAlt} />
+          <ResearchCycleFigure />
         </div>
       </div>
     </section>
