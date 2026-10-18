@@ -1,4 +1,4 @@
-import { contact, getInvolved, studentApplication } from "../content/siteContent";
+import { contact, getInvolved } from "../content/siteContent";
 import { Section } from "./Section";
 
 const hasRealEmail = contact.email.includes("@") && !contact.email.includes("[");
@@ -30,9 +30,6 @@ export function GetInvolved() {
           )}
         </div>
         <div className="contact-panel-action">
-          <a className="button" href={studentApplication.url} target="_blank" rel="noreferrer">
-            {studentApplication.cta}
-          </a>
           {hasRealEmail ? (
             <a className="button" href={`mailto:${contact.email}`}>
               Contact us at {contact.email}
